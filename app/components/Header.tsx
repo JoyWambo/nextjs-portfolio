@@ -1,4 +1,3 @@
-// app/components/Header.tsx
 "use client";
 
 import Link from "next/link";
@@ -39,7 +38,7 @@ export default function Header() {
         className="
           container mx-auto flex items-center justify-between
           rounded-xl p-4
-          bg-white/10 dark:bg-black/40
+         bg-black/50
           backdrop-blur-md
           border border-white/10 dark:border-white/20
           shadow-lg
@@ -141,7 +140,7 @@ export default function Header() {
             aria-controls="mobile-menu"
             className="
               p-2 rounded-md
-              text-white dark:text-slate-100
+              text-black dark:text-white
               hover:bg-white/10 dark:hover:bg-white/5
               focus:outline-none focus:ring-2 focus:ring-blue-400
               transition

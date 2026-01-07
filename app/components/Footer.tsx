@@ -1,4 +1,3 @@
-// app/components/Footer.tsx
 "use client";
 
 export default function Footer() {
@@ -11,7 +10,7 @@ export default function Footer() {
         mt-12
         mx-4
         rounded-xl
-        bg-white/8 dark:bg-black/30
+        bg-black/50
         backdrop-blur-md
         border border-white/10 dark:border-white/20
         shadow-lg
@@ -36,7 +35,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn (opens in a new tab)"
-            className="p-2 rounded-md text-white dark:text-slate-100 hover:bg-white/5 dark:hover:bg-white/5 transition"
+            className="p-2 rounded-md text-black dark:text-white hover:bg-white/5 dark:hover:bg-white/5 transition"
           >
             <svg
               className="w-5 h-5"

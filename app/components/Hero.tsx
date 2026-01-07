@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <main className="grow container mx-auto p-4 pt-20 w-full">
+    <main className="container mx-auto p-4 w-full">
       <section
         aria-labelledby="hero-title"
         className="
           text-center py-20 px-4 sm:px-6
           rounded-2xl
-          bg-white/10 dark:bg-black/40
+          bg-black/50
           backdrop-blur-md
           border border-white/10 dark:border-white/20
           shadow-2xl
@@ -20,7 +20,7 @@ export default function Hero() {
       >
         <h1
           id="hero-title"
-          className="text-5xl md:text-6xl font-extrabold mb-6 text-white dark:text-slate-100"
+          className="text-5xl md:text-6xl font-extrabold mb-6 text-black dark:text-white"
         >
           Welcome to My Portfolio
         </h1>
