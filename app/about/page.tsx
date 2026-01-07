@@ -30,6 +30,17 @@ export default function About() {
           and learning new technologies to deliver delightful user experiences.
         </p>
 
+        <div className="mx-auto w-[160px] h-[160px] relative mb-6">
+          <Image
+            src="/globe.svg"
+            alt="Profile"
+            fill
+            sizes="160px"
+            className="rounded-full object-cover shadow-xl transition-transform duration-300 hover:scale-105"
+            priority
+          />
+        </div>
+
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
             href="/projects"

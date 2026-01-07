@@ -9,7 +9,7 @@ type FormData = {
   message: string;
 };
 
-export default function Contact(): JSX.Element {
+export default function Contact() {
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
